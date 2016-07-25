@@ -1,0 +1,92 @@
+/*media*/
+
+/* Large Devices, Wide Screens */
+@media all and (min-width:1440px) {
+    .header{height: 1080px !important;}
+}    
+
+@media all and (orientation: portrait) {
+    .logo{display: none;}
+}
+
+@media only screen and (max-width : 1240px) {
+    .wrapper {
+        max-width: none;
+        margin: 0 20px;}
+    .footer { margin: 0 20px;}
+    .wrapper:nth-child(2) { margin: 0 auto;}
+    .form { margin: 91px auto 30px auto;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1024px) {
+    .logo { display: none;}
+    .menu-dekstop { display: none;}
+    .sidebar { margin-left: 20px !important;}
+}
+
+@media only screen and (min-width : 1025px) {
+    .logo { display: block;}
+    .mobile-bar { visibility: hidden;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .form {
+        max-width: none;
+        border: transparent;}
+    .form h2 {
+        margin: -33px auto 0 auto;
+        display: block;
+        text-align: center;
+        position: relative;}
+    input[required="required"], textarea {
+        position: relative;
+        text-indent: 13px;
+        width: 100%;}
+    form div {
+        margin: -2px auto 15px auto;
+        position: relative;
+        text-align: center;}
+    input:required, textarea:required {
+        background-position-x: 99.3%;}
+    div.submit input { margin-left: 36%;}
+    .footer {
+        background-position-x: center;
+        background-position-y: 10%;
+        padding-top: 250px;
+        margin-bottom: 15%;}
+    .footer div.item {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+        text-align: left;
+        padding-left: 55px;
+        padding-right: 0;
+        background-position: top left !important;}
+        div.submit input {
+        margin-left: auto;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        height: inherit;}
+    .sidebar {
+        order: 2;
+        margin: auto auto 25px !important;
+        width: 63.1%;
+        height: initial;}
+    .main {
+        width: auto;
+        height: inherit;
+        margin-left: -25px;}
+    .main img{ margin-right: 0 !important;}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    .mobile-bar a { text-indent: -75px !important;}
+}

@@ -1,0 +1,92 @@
+.form {
+	position: relative;
+    max-width: 724px;
+    max-height: 526px;
+    border: 2px solid #f6f6f6;
+    margin: 91px auto 30px 27.8%;
+}
+
+.form h2 {
+    font: bold 46px RobotoBold;
+    display: inline-block;
+    margin: -33px auto 0 23.2%;
+    letter-spacing: 7.0px;
+    position: absolute;
+    background: white;
+    box-sizing: border-box;
+    background: white;
+    padding-left: 24px;
+    padding-right: 24px;
+}   
+
+.form p {
+	font: 14.2px RobotoLight;
+    display: block;
+    margin: 44px auto 34px auto;
+    padding-top: 0;
+    letter-spacing: 0.35px;
+    display: block;
+    text-align: center;
+}
+
+label {
+	font:17.99px RobotoRegular;
+	color: #6c6c6c;
+}
+
+input[required="required"] {
+	width: 74.7%;
+	height: 50px;
+	padding: 10px auto 10px 40px;
+	box-sizing: border-box;
+	text-indent: 18px;
+	font:17.99px RobotoLightItalic;
+    font-style: italic;
+    letter-spacing: 0.7px;
+    background: #f8f8f8;
+    color: #dbdbdb;
+    border: 1px solid #e5e5e5;
+}
+
+form div {
+	margin: -2px auto 15px 146px;
+}
+
+textarea {
+    width: 74.7%;
+    height: 119px;
+	text-indent: 18px;
+    font: 17.99px RobotoLightItalic;
+    font-style: italic;
+    letter-spacing: 0.7px;
+    box-sizing: border-box;
+    padding-top: 11px;
+    background: #f8f8f8;
+    color: #dbdbdb;
+    border: 1px solid #e5e5e5;
+}
+
+input:required, textarea:required {
+    background: url(../images/buttons/star.png) no-repeat;
+    background-size: 6px;
+    background-position-x: 98.3%;
+    background-position-y: 4px;
+}
+
+div.message {
+	margin-top: 16px;
+}
+
+div.submit input {
+	margin-left: 124px;
+    margin-top: 9px;
+    background: #6556df;
+    border-radius: 5px;
+    color: white;
+    font: 20.4px RobotoRegular;
+    padding: 10px 51px 12px 47px;
+    letter-spacing: 1px;
+}
+
+
+
